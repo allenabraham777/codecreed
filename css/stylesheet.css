@@ -403,8 +403,13 @@ footer{
 	width: 40px;
 	border-radius: 5px;
 	background-color: WHITE;
+    transition: all 0.3s linear 0s;
 }
 
+.fb:hover, .tw:hover, .gp:hover{
+    height: 45px;
+    width: 45px;
+}
 
 
 .fb:hover{
