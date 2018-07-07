@@ -111,7 +111,7 @@
 	text-decoration: none;
 }
 .blue{
-	background-color: rgb(60,196,124);
+    background-color: rgb(60,196,124);
 	box-shadow: 1px 1px 15px black; 
 	font-size: 18px;
 	color: black;
@@ -553,3 +553,9 @@ footer{
     opacity: 0.9;
 }
 /*---------------------------------------------------------------*/
+
+@media screen and (max-width: 960px){
+    .special{
+        width: 100%;
+    }
+}
